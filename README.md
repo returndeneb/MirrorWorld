@@ -1,6 +1,8 @@
 # MirrorWorld
 
 Project Overview
+
+
 ​This script generates a 3D model of a specified real-world location. It fetches building and road data from OpenStreetMap and elevation data from the OpenTopography API. The script then constructs and renders a textured 3D scene using PyVista, offering both an interactive view and the ability to save a screenshot from a specific, camera-matched perspective. The system includes a local caching mechanism to speed up subsequent runs for the same location.
 ​Workflow for High-Fidelity Texture Mapping
 ​To apply a texture from a real photograph onto a 3D building model, you must mathematically link the 2D photo to the 3D world space. This workflow describes a semi-automated process to achieve this.
